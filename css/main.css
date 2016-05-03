@@ -1,3 +1,60 @@
+/*HEADER*/
+.navbar {
+	border: none;
+	margin: none;
+}
+
+/*carousel slide*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+/*fin carousel slide*/
+/*circle social icons*/
+.circle-social {
+    width: 120px;
+    height: 120px;
+    background: #447a1c;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
+
+/*fin circle social icons*/
+
+
+/*COLOR*/
+.bg-blue-dark {
+	background-color: #34495e
+}
+.bg-blue {
+	background-color: #
+}
+.bg-red {
+	background-color: 
+}
+.bg-green {
+	background-color: #a0d468;
+}
+
+.inline {
+	display: inline;
+}
+
+/*TEXT*/
+.text-lighter {
+	color: #eee;
+}
+
+/* MEDIDAS */
+.pd-1 {
+	padding: 1% 0;
+}
+.pd-2 {
+	padding: 2% 0;
+}
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
 .clearfix {

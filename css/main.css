@@ -29,13 +29,13 @@ ul{
 .bgRed{
 	background:#E74C3C;
 }
-.bgBlue{
+.bgBlue,nav .pagination a:hover{
 	background:#34495E;
 }
 footer{
 	background:#2C3E50;
 }
-.bgRed,.bgBlue,footer,.teamContent,.aboutContent{
+.bgRed,.bgBlue,footer,.teamContent,.aboutContent,.blog{
 	padding:30px 0px 20px 0px;
 }
 .smallFont{
@@ -48,7 +48,7 @@ footer{
 .bgBlue p,.smallFont, .bgBlue a, footer a{
 	opacity:0.7;
 }
-.bgBlue form *,.thumbText div, .progress div{
+.bgBlue form *,.thumbText div, .progress div,.btn-group .btn{
 	padding:5px;
 }
 .bgBlue a:hover, footer a:hover{

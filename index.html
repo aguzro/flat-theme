@@ -22,6 +22,7 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
+<!--HEADER-->  
     <header class="navbar navbar-inverse navbar-fixed-top bg-blue-dark pd-1">
         <div class="container-fluid">
             <div class="row">
@@ -29,13 +30,13 @@
                     <div class="col-md-12">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                          <a class="navbar-brand" href="#">
+                          <a class="navbar-brand" href="index.html">
                             <img alt="Brand" src="images/logo.png">
                           </a>
                         </div>
@@ -43,19 +44,20 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 ">
                           <ul class="nav navbar-nav pull-right">
-                            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li class="active"><a href="index.html">Home </a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
                           </ul>
                     </div> 
                 </div>
             </div>
         </div>        
-    </header>
-    <section>
+    </header><!--fin header-->
+<!--SLIDER-->     
+    <section id="carousel-slider">
       <div class="row">
               <div class="col-md-12">
                 <div class="container-fluid">
@@ -65,26 +67,25 @@
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
                       </ol>
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="images/slider/bg1.jpg" alt="Chania" width="460" height="345">
+                          <img src="images/slider/bg1.jpg" alt="">
                           <div class="carousel-caption">
                             <h2>Powerful and Responsive Web Design</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                           </div>
                         </div>
                         <div class="item">
-                          <img src="images/slider/bg2.jpg" alt="Chania" width="460" height="345">
+                          <img src="images/slider/bg2.jpg" alt="">
                           <div class="carousel-caption">
                             <h2>Powerful and Responsive Web Design</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
                           </div>
                         </div>
                         <div class="item">
-                          <img src="images/slider/bg3.jpg" alt="Flower" width="460" height="345">
+                          <img src="images/slider/bg3.jpg" alt="">
                           <div class="carousel-caption">
                             <h2>Powerful and Responsive Web Design</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
@@ -105,36 +106,40 @@
                 </div>
               </div>
             </div>
-    </section>
-    <section class="bg-green pd-2">
+    </section><!--fin slider-->
+<!--SOCIAL MARKETING-->    
+    <section id="social-marketing" class="bg-green pd-3">
       <div class="container-fluid">
         <div class="row">
           <div class="container">
-            <div class="col-md-4">
-              <div class="inline circle-social"><i class="fa fa-twitter text-lighter"></i></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="circle-social"><i class="fa fa-twitter text-lighter"></i></div>
               <h3 class="text-lighter">Twitter Marketing</h3>
               <p class="text-lighter">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
-            <div class="col-md-4">
-              <div class="inline"><i class="fa fa-facebook text-lighter"></i></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="circle-social">
+                <i class="fa fa-facebook text-lighter"></i>
+              </div>
               <h3 class="text-lighter">Facebook Marketing</h3>
               <p class="text-lighter">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
-            <div class="col-md-4">
-              <div class="inline"><i class="fa fa-google-plus text-lighter"></i></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="circle-social"><i class="fa fa-google-plus text-lighter"></i></div>
               <h3 class="text-lighter">Google Plus Marketing</h3>
               <p class="text-lighter">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="pd-2">
+    </section><!--fin social-marketing-->
+<!--LATEST PROJECT-->
+    <section id="latest-project" class="pd-2">
       <div class="container-fluid">
         <div class="row">
           <div class="container">
-            <div class="col-md-4">
-              <h4>Our Latest Project</h4>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <h3>Our Latest Project</h3>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
               <nav>
                 <ul class="pagination">
@@ -151,13 +156,31 @@
                 </ul>
               </nav>
             </div>
-            <div class="col-md-8">
-              
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <div class="container">
+                <div class="row">
+                    <div class="col-xs-6 col-md-4">
+                      <a href="#" class="thumbnail">
+                        <img src="images/portfolio/recent/item1.png" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                      <a href="#" class="thumbnail">
+                        <img src="images/portfolio/recent/item3.png" alt="...">
+                      </a>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                      <a href="#" class="thumbnail">
+                        <img src="images/portfolio/recent/item2.png" alt="...">
+                      </a>
+                    </div>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section><!--fin latest-project-->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

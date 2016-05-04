@@ -14,8 +14,10 @@
   clear: both;
 }
 /*--Index Bottom--*/
-*, a{
+*{
 	font-family:"Roboto";
+}
+.bgRed,.bgBlue,footer, a,.inputBttn{
 	color:#EEEEEE;
 }
 li{
@@ -33,23 +35,20 @@ ul{
 footer{
 	background:#2C3E50;
 }
-.bgRed,.bgBlue,footer{
-	padding-top:30px;
-	padding-bottom:50px;
-}
-footer,.title>p{
-	padding-bottom:20px;
+.bgRed,.bgBlue,footer,.teamContent,.aboutContent{
+	padding:30px 0px 20px 0px;
 }
 .smallFont{
 	font-size:12px;
+	line-height:14px;
 }
-.title>h2,.title>p{
+.title>h2,.title>p,.teamContent{
 	text-align:center;
 }
 .bgBlue p,.smallFont, .bgBlue a, footer a{
 	opacity:0.7;
 }
-.bgBlue form *,.thumbText div{
+.bgBlue form *,.thumbText div, .progress div{
 	padding:5px;
 }
 .bgBlue a:hover, footer a:hover{

@@ -14,17 +14,17 @@
   clear: both;
 }
 /*--ABOUT-US--*/
-.aboutContent{
+.aboutContent,.blog{
 	background:#F5F5F5;
 }
-.aboutContent, .teamContent{
+.aboutContent, .teamContent,.pagination a{
 	color:#34495E;
 }
 .progress{
 	height:30px;
 	background:white;
 }
-.whiteText{
+.whiteText,.pagination a:hover,.active a{
 	color:white;
 }
 .social,.teamItem img{
@@ -57,80 +57,3 @@
 }
 
 /*--ABOUT-US--*/
-/*--Index Bottom--*/
-.bgRed,.bgBlue,footer, a,.inputBttn{
-	font-family:"Roboto";
-	color:#EEEEEE;
-}
-li{
-	list-style:none;
-}
-ul{
-	padding-left:0px;
-}
-.bgRed{
-	background:#E74C3C;
-}
-.bgBlue{
-	background:#34495E;
-}
-footer{
-	background:#2C3E50;
-}
-.bgRed,.bgBlue,footer,.teamContent,.aboutContent{
-	padding:30px 0px 20px 0px;
-}
-.smallFont{
-	font-size:12px;
-	line-height:14px;
-}
-.title>h2,.title>p,.teamContent{
-	text-align:center;
-}
-.bgBlue p,.smallFont, .bgBlue a, footer a{
-	opacity:0.7;
-}
-.bgBlue form *,.thumbText div,.progress div{
-	padding:5px;
-}
-.bgBlue a:hover, footer a:hover{
-	text-decoration:none;
-	color:#34495E;
-	background:rgba(238,238,238,0.7);
-	padding:0 5px;
-}
-.cita{
-	border-left:4px solid #EEEEEE;
-	padding:5px 20px;
-}
-.bgBlue h4,.cita{
-	margin-top:20px;
-	margin-bottom:20px;
-}
-.thumbText img{
-	vertical-align:text-bottom;
-}
-.thumbText div{
-	width:70%;
-	display:inline-block;
-}
-.inputText{
-	color:#34495E;
-	background:#EEEEEE;
-	width:70%;
-	border:1px solid #CCCCCC;
-	border-top-left-radius:5px;
-	border-bottom-left-radius:5px;
-}
-.inputBttn{
-	background:#E74C3C;
-	width:20%;
-	border:1px solid #D43F3A;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
-}
-footer li{
-	display:inline-table;
-	margin-left:20px;
-}
-/*--Index Bottom--*/

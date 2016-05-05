@@ -89,6 +89,9 @@
 .pd-12-5 {
 	padding: 12% 0 5% 0;
 }
+.pd-bottom{
+	padding:0 0 12% 0;
+}
 /*fin medidas*/
 /*--Index Bottom--*/
 *{
@@ -138,7 +141,7 @@ footer{
 	border-left:4px solid #EEEEEE;
 	padding:5px 20px;
 }
-.bgBlue h4,.cita{
+.bgBlue h4,.cita,.commentBlock{
 	margin-top:20px;
 	margin-bottom:20px;
 }
@@ -149,22 +152,22 @@ footer{
 	width:70%;
 	display:inline-block;
 }
-.inputText{
+.inputText,.inputComment{
+	border:1px solid #CCCCCC;
 	color:#34495E;
+}
+.inputText{
 	background:#EEEEEE;
 	width:70%;
 	height:30px;
-	border:1px solid #CCCCCC;
-	border-top-left-radius:5px;
-	border-bottom-left-radius:5px;
+	border-radius:5px 0px 0px 5px;
 }
 .inputBttn{
 	background:#E74C3C;
 	width:20%;
 	height:30px;
 	border:1px solid #D43F3A;
-	border-top-right-radius:5px;
-	border-bottom-right-radius:5px;
+	border-radius:0px 5px 5px 0px;
 }
 footer li{
 	display:inline-table;
@@ -172,10 +175,12 @@ footer li{
 }
 /*--Index Bottom--*/
 /*--ABOUT-US--*/
-.aboutContent,.blog,#clientes,#social{
+.aboutContent,.blog,#clientes,#social,.commentBlock,.bgComment div{
 	background:#F5F5F5;
 }
-.aboutContent, .teamContent,.pagination a,.rightColumn a,#clientes,#social,#latest-project{
+.aboutContent, .teamContent,.pagination a,
+.rightColumn a,#clientes,#social,#latest-project,
+.leftColumn .caption,.bgComment a{
 	color:#34495E;
 }
 .progress{
@@ -185,14 +190,14 @@ footer li{
 .whiteText,.pagination a:hover,.active a{
 	color:white;
 }
-.social,.teamItem img{
+.social,.teamItem img,.commentImg img{
 	border-radius:100%;
 }
-.teamItem img{
+.teamItem img,.commentBlock img{
 	border:4px solid white;
 	max-width:100%;
 }
-.name,.teamItem img{
+.name,.teamItem img,.userComment,.commentBlock img{
 	margin:10px 0px 0px 0px;
 }
 .social{
@@ -226,7 +231,23 @@ footer li{
 .rightColumn .row,.thumbnail,.rightColumn input,.rightColumn .thumbnail{
 	margin-bottom:10px;
 }
-.faIcon{
+.inline{
 	display:inline;
 }
+.inBlock{
+	display:inline-table;
+}
 /*--BLOG--*/
+/*--BLOG ITEM--*/
+.commentBlock,.bgComment div{
+	padding:5px 5px 5px 10px;
+}
+.commentBlock h5,.commentBlock p{
+	line-height:16px;
+}
+.inputComment{
+	border-radius:5px;
+	margin-bottom:10px;
+	width:100%;
+}
+/*--BLOG ITEM--*/
